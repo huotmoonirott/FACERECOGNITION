@@ -1,0 +1,18 @@
+# Core
+numpy
+opencv-contrib-python
+Pillow
+
+# Face detection + recognition (SCRFD + ArcFace, buffalo_l model pack)
+insightface
+
+# ONNX Runtime — pick ONE:
+onnxruntime-gpu   # NVIDIA GPU (CUDA) — falls back to CPU automatically if CUDA init fails
+# onnxruntime     # use this instead if you don't have an NVIDIA GPU
+
+# GUI
+PyQt6
+
+# Khmer text-to-speech greeting
+edge-tts
+pygame            # plays the synthesized greeting audio
